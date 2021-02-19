@@ -6,7 +6,7 @@ export default function Linebar(props) {
 
     useEffect(() => {
         let addRow = rows.slice();
-        for (let i = 1; i <= 200; i++) {
+        for (let i = 1; i <= 500; i++) {
             addRow.push(i);
         }
         setRows(addRow)
