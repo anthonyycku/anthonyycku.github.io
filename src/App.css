@@ -8,6 +8,17 @@ body {
     font-weight: 400;
 }
 
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    height: 1px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
 /* App body */
 .App {
     margin-top: 10px;
@@ -94,6 +105,7 @@ body {
     min-width: 150px;
     font-size: 0.8em;
     min-height: 40px;
+    font-weight: 700;
 }
 
 .header:focus {
@@ -143,4 +155,38 @@ body {
 
 .fa-copy {
     color: white;
+}
+
+/* Project Page */
+
+#projectpage {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    padding: 5px;
+}
+
+.project {
+    margin-top: 40px;
+    padding: 5px;
+    background-color: rgb(32, 32, 36);
+}
+
+#projectpage img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1000px;
+}
+
+#projectpage h1 {
+    font-weight: 900;
+}
+
+#projectpage h3 {
+    color: gold;
+    font-weight: 800;
+}
+
+#projectpage h4 {
+    font-weight: 950;
 }

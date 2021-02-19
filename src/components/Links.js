@@ -7,7 +7,7 @@ export default function Links(props) {
             <i class="fal fa-copy icons"></i>
             <a target="_blank" href="https://www.linkedin.com/in/anthonyycku/"><i class="fab fa-linkedin icons"></i></a>
             <a target="_blank" href="https://github.com/anthonyycku"><i class="fab fa-github icons"></i></a>
-            <i class="fad fa-envelope-square icons"></i>
+            <a href="mailto:anthony.yc.ku@gmail.com"><i class="fad fa-envelope-square icons"></i></a>
         </div>
     )
 }
