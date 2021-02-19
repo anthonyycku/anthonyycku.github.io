@@ -12,8 +12,8 @@ export default function Skills(props) {
         <br />
         <p>
             <span className="purple">const</span> <span className="blue">Skills = </span>
-            <span className="gold">() </span><span className="purple">=> </span>
-            <span className="gold">Developer.create()</span><span className="purple"> =></span>
+            <span className="gold">() </span><span className="purple">{"=>"} </span>
+            <span className="gold">Developer.create()</span><span className="purple"> {"=>"}</span>
             <span className="gold"> &#123;</span>
         </p>
         <p className="indent1">
@@ -87,6 +87,9 @@ export default function Skills(props) {
         <br />
         <p className="indent2">
             <span className="gold">)</span>
+        </p>
+        <p className="indent1">
+            <span className="gold"> {"}"}</span>
         </p>
     </div>
 }
