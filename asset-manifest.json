@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/anthonyycku.github.io/static/css/main.83971ace.chunk.css",
+    "main.js": "/anthonyycku.github.io/static/js/main.d8006ffb.chunk.js",
+    "main.js.map": "/anthonyycku.github.io/static/js/main.d8006ffb.chunk.js.map",
+    "runtime-main.js": "/anthonyycku.github.io/static/js/runtime-main.7ea6a856.js",
+    "runtime-main.js.map": "/anthonyycku.github.io/static/js/runtime-main.7ea6a856.js.map",
+    "static/js/2.864df28f.chunk.js": "/anthonyycku.github.io/static/js/2.864df28f.chunk.js",
+    "static/js/2.864df28f.chunk.js.map": "/anthonyycku.github.io/static/js/2.864df28f.chunk.js.map",
+    "index.html": "/anthonyycku.github.io/index.html",
+    "static/css/main.83971ace.chunk.css.map": "/anthonyycku.github.io/static/css/main.83971ace.chunk.css.map",
+    "static/js/2.864df28f.chunk.js.LICENSE.txt": "/anthonyycku.github.io/static/js/2.864df28f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ea6a856.js",
+    "static/js/2.864df28f.chunk.js",
+    "static/css/main.83971ace.chunk.css",
+    "static/js/main.d8006ffb.chunk.js"
+  ]
+}
