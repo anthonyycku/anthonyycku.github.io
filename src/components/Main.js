@@ -12,7 +12,7 @@ export default function Main(props) {
                 <br />
                 <img src="profile.png" />
                 <br />
-                <p>Lover of gays</p>
+                <p>Just a guy</p>
             </div>
         </div>
     )

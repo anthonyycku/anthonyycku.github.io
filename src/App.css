@@ -2,28 +2,40 @@
 
 body {
     background-color: rgb(247, 225, 225);
-    min-height: 100vh;
+    min-height: 90vh;
     color: white;
     font-family: "Fira Code", monospace;
     font-weight: 400;
 }
 
-
+/* App body */
 .App {
     margin-top: 10px;
     background-color: #1c2229;
     position: relative;
     overflow-y: hidden;
+    overflow-x: hidden;
+    border-radius: 15px;
 }
 
 #content {
     margin-top: 60px;
 }
 
+/* Header Bar */
+
+.headerbar {
+    background-color: rgb(113, 113, 113);
+    text-align: center;
+    margin-left: -100px;
+    width: 120%;
+}
+
 /* Line */
 
 .lineContainer {
     margin-top: 50px;
+    margin-left: 40px;
     width: 15px;
     position: absolute;
 }
@@ -70,6 +82,7 @@ body {
     position: absolute;
     height: 30px;
     display: flex;
+    margin-left: 40px;
 }
 
 .header {
@@ -103,5 +116,31 @@ body {
 
 .activated {
     border-bottom: rgb(0, 128, 208) 3px solid;
+    color: white;
+}
+
+/* Links Bar */
+
+.linksBar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    left: 10px;
+    z-index: 1;
+}
+
+.icons {
+    cursor: pointer;
+    margin-bottom: 40px;
+    color: grey;
+    font-size: 2.3em;
+}
+
+.icons:hover {
+    color: white;
+}
+
+.fa-copy {
     color: white;
 }

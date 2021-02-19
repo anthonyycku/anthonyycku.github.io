@@ -9,6 +9,8 @@ import Nav from "./components/Nav"
 import Skills from "./components/pages/Skills"
 import Contact from "./components/pages/Contact"
 import Projects from "./components/pages/Projects"
+import HeaderBar from "./components/HeaderBar"
+import Links from "./components/Links"
 
 function App() {
 
@@ -49,11 +51,16 @@ function App() {
     <div className="App container">
 
       <Router>
+        {/* Header Bar */}
+        <HeaderBar />
 
         {/* Line of numbers */}
         <div className="lineContainer">
           <Linebar />
         </div>
+
+        {/* Link bar */}
+        <Links />
 
         {/* Navigation */}
         <Nav />
