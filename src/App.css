@@ -27,6 +27,7 @@ hr {
     overflow-y: hidden;
     overflow-x: hidden;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 
 #content {
@@ -84,6 +85,10 @@ hr {
 .mainTitle p {
     font-size: 1.3em;
     font-weight: 800;
+}
+
+.mainTitle p {
+    margin-left: 100px;
 }
 
 /* Nav */
@@ -240,4 +245,17 @@ hr {
 
 #skillspage li {
     margin-bottom: 5px;
+}
+
+/* Contact */
+#contactpage {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    padding: 5px;
+    font-weight: 800;
+}
+
+#contactpage .grey {
+    color: grey;
 }

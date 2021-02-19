@@ -2,12 +2,12 @@ export default function Skills(props) {
     return <div id="skillspage">
 
         <p>
-            <span className="purple">import</span> React from
-        <span className="green"> "react"</span>;
+            <span className="purple">import</span> React <span className="purple">from</span>
+            <span className="green"> "react"</span>;
         </p>
         <p>
-            <span className="purple">import</span> Developer from
-        <span className="green"> "Anthony-Ku"</span>;
+            <span className="purple">import</span> Developer <span className="purple">from</span>
+            <span className="green"> "Anthony-Ku"</span>;
         </p>
         <br />
         <p>
@@ -85,5 +85,8 @@ export default function Skills(props) {
         </ul>
         <p className="indent2"><span className="red">{"<"}/ul{">"}</span></p>
         <br />
+        <p className="indent2">
+            <span className="gold">)</span>
+        </p>
     </div>
 }
