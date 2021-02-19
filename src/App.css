@@ -1,38 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+body {
+    background-color: rgb(227, 189, 189);
+    min-height: 100vh;
+    color: white;
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+}
+
+
 .App {
-  text-align: center;
+    margin-top: 10px;
+    background-color: #1c2229;
+    position: relative;
+    overflow-y: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#content {
+    margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Line */
+
+.lineContainer {
+    margin-top: 50px;
+    width: 15px;
+    position: absolute;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lineNumbers p {
+    margin: 2px 0 2px 0;
+    font-size: 0.8em;
+    color: grey;
 }
 
-.App-link {
-  color: #61dafb;
+/* Main about */
+.mainTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainTitle h1 {
+    font-weight: 900;
+}
+
+.mainTitle h5 {
+    color: rgb(228, 94, 94);
+    font-weight: 800;
+}
+
+.mainTitle p {
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+/* Nav */
+
+
+.navbar {
+    position: absolute;
+    height: 30px;
+    display: flex;
+}
+
+.header {
+    background-color: #1c2229;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    min-width: 150px;
+    font-size: 0.8em;
+}
+
+.header:focus {
+    outline: none;
+}
+
+.filter-markdown {
+    filter: invert(21%) sepia(75%) saturate(6615%) hue-rotate(224deg) brightness(98%) contrast(103%);
+}
+
+.header img {
+    margin-right: 10px;
+}
+
+.htmlheader {
+    width: 18px;
+    height: 18px;
+}
+
+.activated {
+    border-bottom: rgb(0, 128, 208) 3px solid;
 }
