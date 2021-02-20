@@ -33,6 +33,7 @@ export default function Skills(props) {
             <li>Sass(SCSS)</li>
             <li>Git / Repo Management</li>
             <li>Agile Methodology / SCRUM</li>
+            <li>OOP</li>
         </ul>
         <p className="indent2"><span className="red">{"<"}/ul{">"}</span></p>
         <br />
@@ -50,6 +51,7 @@ export default function Skills(props) {
             <li>Bootstrap</li>
             <li>MaterialUI</li>
             <li>jQuery</li>
+            <li>Vanilla JS DOM</li>
         </ul>
         <p className="indent2"><span className="red">{"<"}/ul{">"}</span></p>
         <br />
