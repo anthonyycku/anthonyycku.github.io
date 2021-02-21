@@ -41,7 +41,7 @@ export default function Package(props) {
             <br />
             "flexible": <span className="orange">"I like to keep an open mind and consider every facet before passing judgment, as I think everyone should do."</span>,
             <br />
-            "growth-minded": <span className="gold">"The second we decide to stop learning is also the second we become blind to the world around us. This might be a quote, I actually don't know."</span>,
+            "growth-minded": <span className="gold">"The moment we decide to stop learning is the moment we become blind to the world around us."</span>,
             <br />
             "diamond hands": <span className="orange">I am not phased by pressure and deadlines. And no, this isn't a reference to the GameStop stock.</span>
         </p>
