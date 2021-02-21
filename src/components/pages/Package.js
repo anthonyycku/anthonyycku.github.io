@@ -21,13 +21,13 @@ export default function Package(props) {
             "dependencies": <span className="red">{"{"}</span>
         </p>
         <p className="indent3">
-            "dogs": <span className="gold">"I love dogs and all animals. I volunteer at rescue foundations and shelters. Compassion and empathy keeps us sane and human. They're also just the cutest things in the world."</span>,
+            "dogs": <span className="gold">"I love dogs and all animals. I volunteer at rescue foundations and shelters. I think compassion and empathy are very important traits in any person."</span>,
             <br />
             "knowledge_diversity": <span className="orange">"Learning is about trying new things. I try to be well-rounded in my knowledge by reading about different disciplines and fields. My go-to is The Economist!"</span>,
             <br />
             "sports": <span className="gold">"I'm primarily a badminton player, but I like any racket sports (tennis, ping-pong). I'm horrible at soccer. Don't make me play soccer."</span>,
             <br />
-            "social": <span className="orange">"I'm a very social person. I like listening to people's opinions and stories - that's gaining perspective!"</span>
+            "social": <span className="orange">"I'm a very social person. I like listening to people's opinions and stories - it's all about gaining perspective!"</span>
         </p>
         <p className="indent2">
             <span className="red">{"}"}</span>
@@ -37,7 +37,7 @@ export default function Package(props) {
             "scripts": <span className="red">{"{"}</span>
         </p>
         <p className="indent3">
-            "responsible": <span className="gold">"I believe that, as employees, we have the inherent responsibility to keep ourselves and each other honest and accountable for our actions."</span>,
+            "responsible": <span className="gold">"I believe that, as employees, we have the inherent responsibility to keep ourselves and each other honest and accountable for our actions when representing a company."</span>,
             <br />
             "flexible": <span className="orange">"I like to keep an open mind and consider every facet before passing judgment, as I think everyone should do."</span>,
             <br />
