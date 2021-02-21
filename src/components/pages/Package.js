@@ -10,7 +10,7 @@ export default function Package(props) {
         <p className="indent2">
             "name": <span className="gold">"Anthony Ku (AK)"</span>,
             <br />
-            "version": <span className="green">0.99</span>
+            "version": <span className="green">0.99</span>,
             <br />
             "age": <span className="green">26</span>,
             <br />
@@ -60,15 +60,19 @@ export default function Package(props) {
             <br />
             "hobbies?":
             <br />
-            <span className="orange">"Games are cool, going to the gym pre-covid is cool, cars are cooler. I enjoy cooking but my results are questionable at best. I can make Thai food though!"</span>,
+            <span className="orange">"Games are cool, going to the gym pre-covid is cool, cars are cooler. I enjoy cooking but you'd regret making me cook for you."</span>,
             <br />
             "favorite dog breed?":
             <br />
             <span className="gold">"I grew up with a Golden Retriever so I think they're just the sweetest and cutest dogs. But my goal in the future is to adopt research dogs and give them the best life for their sacrifice to science."</span>,
             <br />
-            "can you really cook?":
+            "favorite language?":
             <br />
-            <span className="orange">"Why would you ask me that, I already said I enjoy cooking.  IT'S ALL ABOUT ENJOYING IT WHO CARES IF I'M BAD RIGHT? Get off my back about that cooking stuff, this is supposed to be a FAQ, stop asking me provocative questions"</span>
+            <span className="orange">"I'm most fluent with Javascript, so I'd have to say JS - it just makes sense to me. I'm currently learning python as a secondary language."</span>,
+            <br />
+            "ultimate goal?":
+            <br />
+            <span className="gold">"To live a life of fulfillment, knowing I did everything I possibly could to make life easier for those around me - and I want to start a non-profit organization to help animals when I retire."</span>
 
         </p>
         <p className="indent2">
