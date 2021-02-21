@@ -37,7 +37,7 @@ export default function Package(props) {
             "scripts": <span className="red">{"{"}</span>
         </p>
         <p className="indent3">
-            "responsible": <span className="gold">"I believe that, as employees, we have the inherent responsibility to keep each other honest and accountable about our work."</span>,
+            "responsible": <span className="gold">"I believe that, as employees, we have the inherent responsibility to keep ourselves and each other honest and accountable for our actions."</span>,
             <br />
             "flexible": <span className="orange">"I like to keep an open mind and consider every facet before passing judgment, as I think everyone should do."</span>,
             <br />
