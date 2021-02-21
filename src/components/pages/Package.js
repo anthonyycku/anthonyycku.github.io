@@ -43,7 +43,7 @@ export default function Package(props) {
             <br />
             "growth-minded": <span className="gold">"The moment we decide to stop learning is the moment we become blind to the world around us."</span>,
             <br />
-            "respectful": <span className="orange">I was raised in a culture where respect is of utmost importance. Respecting others costs nothing.</span>
+            "respectful": <span className="orange">"I was raised in a culture where respect is of utmost importance. Respecting others costs nothing."</span>
         </p>
         <p className="indent2">
             <span className="red">{"}"}</span>
