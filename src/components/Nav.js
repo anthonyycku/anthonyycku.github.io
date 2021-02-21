@@ -5,7 +5,7 @@ export default function Nav(props) {
 
     return (
         <div className="row navRow">
-            <div className="col-sm-8 navbar">
+            <div className="col-sm-10 navbar">
                 <Link to="/" style={{ textDecoration: "none" }}>
                     <button id="about" className="header activated">
                         <img className="filter-markdown" src="markdown.svg" />
@@ -28,6 +28,12 @@ export default function Nav(props) {
                     <button id="contact" className="header">
                         <img className="htmlheader" src="css.svg" />
                     contact.css
+                </button>
+                </Link>
+                <Link to="package" style={{ textDecoration: "none" }}>
+                    <button id="package" className="header">
+                        <img className="htmlheader packagejson" src="code.svg" />
+                    package.json
                 </button>
                 </Link>
             </div>

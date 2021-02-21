@@ -11,6 +11,7 @@ import Contact from "./components/pages/Contact"
 import Projects from "./components/pages/Projects"
 import HeaderBar from "./components/HeaderBar"
 import Links from "./components/Links"
+import Package from "./components/pages/Package"
 
 function App() {
 
@@ -19,30 +20,43 @@ function App() {
     let projects = document.getElementById("projects");
     let skills = document.getElementById("skills");
     let contact = document.getElementById("contact");
+    let packagejson = document.getElementById("package");
 
     about.addEventListener("click", () => {
       about.classList.add("activated")
       projects.classList.remove("activated")
       skills.classList.remove("activated")
       contact.classList.remove("activated")
+      packagejson.classList.remove("activated")
     })
     projects.addEventListener("click", () => {
       projects.classList.add("activated")
       skills.classList.remove("activated")
       contact.classList.remove("activated")
       about.classList.remove("activated")
+      packagejson.classList.remove("activated")
     })
     skills.addEventListener("click", () => {
       skills.classList.add("activated")
       contact.classList.remove("activated")
       about.classList.remove("activated")
       projects.classList.remove("activated")
+      packagejson.classList.remove("activated")
     })
     contact.addEventListener("click", () => {
       contact.classList.add("activated")
       about.classList.remove("activated")
       projects.classList.remove("activated")
       skills.classList.remove("activated")
+      packagejson.classList.remove("activated")
+    })
+    packagejson.addEventListener("click", () => {
+      packagejson.classList.add("activated")
+      contact.classList.remove("activated")
+      about.classList.remove("activated")
+      projects.classList.remove("activated")
+      skills.classList.remove("activated")
+
     })
 
   }, [])
@@ -83,6 +97,10 @@ function App() {
             {/* Contact page */}
             <Route exact path="/contact">
               <Contact />
+            </Route>
+            {/* Package.json */}
+            <Route exact path="/package">
+              <Package />
             </Route>
 
           </Switch>
