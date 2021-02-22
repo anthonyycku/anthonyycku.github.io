@@ -43,7 +43,9 @@ export default function Package(props) {
             <br />
             "growth-minded": <span className="gold">"The moment we decide to stop learning is the moment we become blind to the world around us."</span>,
             <br />
-            "respectful": <span className="orange">"I was raised in a culture where respect is of utmost importance. Respecting others costs nothing."</span>
+            "respectful": <span className="orange">"I was raised in a culture where respect is of utmost importance. Respecting others costs nothing."</span>,
+            <br />
+            "easy-going": <span className="gold">"Oh yeah I'm super chill. Talk to me about anything."</span>
         </p>
         <p className="indent2">
             <span className="red">{"}"}</span>
@@ -68,11 +70,11 @@ export default function Package(props) {
             <br />
             "favorite language?":
             <br />
-            <span className="orange">"I'm most fluent with Javascript, so I'd have to say JS - it just makes sense to me. I'm currently learning python as a secondary language."</span>,
+            <span className="orange">"I'm most fluent with Javascript, so I'd have to say JS - it just makes sense to me. Python is also cool for its colloquial syntax and organizational structure."</span>,
             <br />
             "ultimate goal?":
             <br />
-            <span className="gold">"To live a life of fulfillment, knowing I did everything I possibly could to make life easier for those around me - and I want to start a non-profit organization to help animals when I retire."</span>
+            <span className="gold">"Aim high and stay optimistic - and one day to start a non-profit organization to help animals when I retire."</span>
 
         </p>
         <p className="indent2">
