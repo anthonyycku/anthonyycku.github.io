@@ -67,6 +67,7 @@ export default function Skills(props) {
             <li>NodeJS</li>
             <li>Express</li>
             <li>Ruby on Rails</li>
+            <li>REST API / CRUD</li>
             <li>PostgreSQL</li>
             <li>MongoDB</li>
             <li>AWS S3</li>
