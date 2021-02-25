@@ -39,13 +39,15 @@ export default function Package(props) {
         <p className="indent3">
             "responsible": <span className="gold">"I believe that, as employees, we have the inherent responsibility to keep ourselves and each other honest and accountable for our actions when representing a company."</span>,
             <br />
-            "flexible": <span className="orange">"I like to keep an open mind and consider every facet before passing judgment, as I think everyone should do."</span>,
+            "flexible": <span className="orange">"I'm not stubborn at all. I just go along with anything."</span>,
             <br />
             "growth-minded": <span className="gold">"The moment we decide to stop learning is the moment we become blind to the world around us."</span>,
             <br />
             "respectful": <span className="orange">"I was raised in a culture where respect is of utmost importance. Respecting others costs nothing."</span>,
             <br />
-            "easy-going": <span className="gold">"Oh yeah I'm super chill. Talk to me about anything."</span>
+            "Time-conscious": <span className="gold">"Always early or on time. I'm weirdly conscious about time - in a good way!"</span>
+            <br />
+            "easy-going": <span className="orange">"Oh yeah I'm super chill. Talk to me about anything."</span>
         </p>
         <p className="indent2">
             <span className="red">{"}"}</span>
