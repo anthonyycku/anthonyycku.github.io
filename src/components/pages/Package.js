@@ -45,7 +45,7 @@ export default function Package(props) {
             <br />
             "respectful": <span className="orange">"I was raised in a culture where respect is of utmost importance. Respecting others costs nothing."</span>,
             <br />
-            "Time-conscious": <span className="gold">"Always early or on time. I'm weirdly conscious about time - in a good way!"</span>
+            "Time-conscious": <span className="gold">"Always early or on time. I'm weirdly conscious about time - in a good way!"</span>,
             <br />
             "easy-going": <span className="orange">"Oh yeah I'm super chill. Talk to me about anything."</span>
         </p>
