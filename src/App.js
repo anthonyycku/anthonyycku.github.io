@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import React, { useEffect } from "react";
+import axios from "axios";
 
 //Components
 import Main from "./components/Main"
@@ -16,6 +17,11 @@ import Package from "./components/pages/Package"
 function App() {
 
   useEffect(() => {
+    try {
+      axios.get("https://jeffify.herokuapp.com")
+      axios.get("https://jeffify-spotify.herokuapp.com")
+    } catch (err) { }
+
     let about = document.getElementById("about");
     let projects = document.getElementById("projects");
     let skills = document.getElementById("skills");
