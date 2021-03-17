@@ -8,11 +8,9 @@ export default function Package(props) {
         </p>
 
         <p className="indent2">
-            "name": <span className="gold">"Anthony Ku (AK)"</span>,
+            "name": <span className="gold">"Anthony Ku"</span>,
             <br />
             "version": <span className="green">0.99</span>,
-            <br />
-            "age": <span className="green">26</span>,
             <br />
             "private": <span className="blue">false</span>,
             <br />
@@ -21,13 +19,11 @@ export default function Package(props) {
             "dependencies": <span className="red">{"{"}</span>
         </p>
         <p className="indent3">
-            "dogs": <span className="gold">"I love dogs and all animals. I volunteer at rescue foundations and shelters. I think compassion and empathy are very important traits in any person."</span>,
-            <br />
             "knowledge_diversity": <span className="orange">"Learning is about trying new things. I try to be well-rounded in my knowledge by reading about different disciplines and fields. My go-to is The Economist!"</span>,
             <br />
-            "sports": <span className="gold">"I'm primarily a badminton player, but I like any racket sports (tennis, ping-pong). I'm horrible at soccer. Don't make me play soccer."</span>,
+            "goals": <span className="gold">"Always have a purpose in mind when doing anything."</span>,
             <br />
-            "social": <span className="orange">"I'm a very social person. I like listening to people's opinions and stories - it's all about gaining perspective!"</span>
+            "social": <span className="orange">"I'm a self-proclaimed extrovert. Listening to people's opinions and perspectives is fun, prove me otherwise."</span>
         </p>
         <p className="indent2">
             <span className="red">{"}"}</span>
@@ -45,7 +41,7 @@ export default function Package(props) {
             <br />
             "respectful": <span className="orange">"I was raised in a culture where respect is of utmost importance. Respecting others costs nothing."</span>,
             <br />
-            "Time-conscious": <span className="gold">"Always early or on time. I'm weirdly conscious about time - in a good way!"</span>,
+            "time-conscious": <span className="gold">"Always early or on time. I'm weirdly conscious about time - in a good way!"</span>,
             <br />
             "easy-going": <span className="orange">"Oh yeah I'm super chill. Talk to me about anything."</span>
         </p>
@@ -60,11 +56,11 @@ export default function Package(props) {
         <p className="indent3">
             "favorite dev technology?":
             <br />
-            <span className="gold">"100% React. I can't emphasize enough the power of React. It is by far the coolest thing I have ever seen and I don't know why anyone wouldn't use it."</span>,
+            <span className="gold">"100% React. I can't emphasize it enough. It is by far the coolest thing I have ever seen and I don't know why anyone wouldn't use it."</span>,
             <br />
             "hobbies?":
             <br />
-            <span className="orange">"Games are cool, going to the gym pre-covid is cool, cars are cooler. I enjoy cooking but you'd regret making me cook for you."</span>,
+            <span className="orange">"Games are cool, going to the gym pre-covid is cool, cars are cool. I've recently been really into cooking."</span>,
             <br />
             "favorite dog breed?":
             <br />
@@ -74,10 +70,6 @@ export default function Package(props) {
             <br />
             <span className="orange">"I'm most fluent with Javascript, so I'd have to say JS - it just makes sense to me. Python is also cool for its colloquial syntax and organizational structure."</span>,
             <br />
-            "ultimate goal?":
-            <br />
-            <span className="gold">"Aim high and stay optimistic - and one day to start a non-profit organization to help animals when I retire."</span>
-
         </p>
         <p className="indent2">
             <span className="red">{"}"}</span>

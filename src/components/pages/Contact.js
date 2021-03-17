@@ -16,7 +16,7 @@ export default function Contact(props) {
         </p>
 
         <p className="indent2">
-            email: <span className="gold">anthony.yc.ku@gmail.com</span>;
+            email: <span className="gold">anthony.yc.ku[at]gmail.com</span>;
             <br />
             github: <span className="gold">github.com/anthonyycku</span>;
             <br />
