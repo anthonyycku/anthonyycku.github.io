@@ -8,7 +8,7 @@ export default function Main(props) {
             <div className="col-sm-12 mainTitle">
                 <h1>Anthony Ku</h1>
                 <br />
-                <h5>Software Engineer | Web Developer | Full-Stack Developer</h5>
+                <h5>Full-Stack Developer</h5>
                 <br />
                 <img src="profile.png" />
                 <br />
